@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heal The World👨‍👩‍👦‍👦</title>
+
+    <style>
+      body{
+    background:rgba(0,0,0,0.7)url("chichi.jpg");
+    font-family:helvetica,sans-serif;
+    color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    margin: 0px 0px 0px 0px;
+    viewport-fit:fit-content;
+    transition: 5ms;
+    text-align: justify;
+    text-align: center;
+    font-size: 18px;
+    line-height: 0.7cm;
+   
+  }
+     navbar{
+    width: 100%;
+    height:75px;
+    background:rgba(0,0,0,0.5);
+    line-height: 75px;
+    list-style-type:none;
+    
+     }
+lispan:hover{
+color :blue;
+}
+
+     lispan{
+      padding: 75px ;
+      font-family: Arial, Helvetica, sans-serif;
+
+
+     }
+      .love{
+        font-family:Consolas, 'Courier New', monospace;
+        font-size: 15px;
+        text-align: center;
+        text-transform: none;
+      }
+
+      button:hover{
+        opacity:0.3px;
+        color:blue;
+        padding: 10px,10px,10px,10px; 
+        background-color: aquamarine;
+        text-shadow: blueviolet;
+    
+      }
+      button{
+        background-color: #BFCCEC;
+        border: 0.5em capacity solid;
+        border-radius: 105px;
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+        box-shadow: chocolate;
+        object-position: center;
+      }
+     h1{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+
+     }
+     #lily{
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     h2{
+       text-align: center;
+     }
+     img{
+      width: 400px;
+      height: auto;
+      border-radius: 50px;
+
+
+     }
+     .image-container {
+  overflow: hidden; 
+}
+
+.float-right {
+  float: center;
+  margin: 0 0 2px 2px; /* Add margin to create space between the image and caption */
+}
+
+.caption {
+  clear: right; 
+  position: relative;
+  text-align: center;
+  caption-side: bottom;
+}
+caption::hover{
+  opacity:0.3px;
+  color: blueviolet;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+    </style>
+</head>
+<body>
+  <navbar>
+ <ul>
+<lispan>Home</lispan>
+  <lispan>About</lispan>
+<lispan>Services</lispan>
+  <lispan>Contact</lispan>
+  <lispan>Donate</lispan>
+ <lispan>Address</lispan>
+</ul>
+
+  </navbar>
+
+ 
+  <h1> <em>Our children ,Our future</em></h1>  
+  <p class="love">Children are the living messages we send to a time we will not see." - Neil Postman
+  </p>
+  <h2>Children on the Street: Understanding the Plight and Inspiring Change</h2>
+<center>
+  <p>Children living on the streets face unimaginable challenges and hardships
+    that no child should ever experience.<br />
+    Their vulnerability exposes them to dangers, exploitation,
+    and a constant struggle for survival. <br/>
+    As a society,it is our responsibility to understand their plight and
+    take concerted efforts to bring about positive change</p>
+</center>
+
+
+ <p id="lily">As an orginisation,what we seek is to give our children
+   the necessary push to see that they become the leaders <br/>
+    we wish to see.We believe in givingg back to society by visiting
+  orphanages and give them hope . </p>
+<p>Through our collaborative approach, we engage with local communities, governments, and other </p>
+   NGOs to maximize our impact and reach.By leveraging the collective strength of our partnerships,</br>
+    we are able to implement sustainable solutions and drive meaningful change.</br>
+ Our initiatives focus on education, as we believe it is the key to breaking the cycle of poverty. </br>
+ We provide scholarships, educational resources, and mentorship programs to underprivileged children,</br>
+  enabling them to realize their full potential and pursue their dreams.</p>
+<button>Donate</button>
+    
+<div class="image-container">
+  <img src="lily.jpg" alt="Image" class="float-right">
+
+
+  <div class="caption">
+    <a href="https://www.linkedin.com/in/lily-apreku-2937a824a/"> Meet our CEO👩‍💻</a>
+</div>
+</div>
+
+ <script>
+alert("Hello, Welcome to our page🙂🙂!");
+
+
+function welcome() {
+  let name = prompt("Enter your name");
+
+  if (name === "Donor") {
+    alert("Hello ");
+  } else {
+    alert("Hello " + name);
+  }
+
+  alert("We are glad to see you, " + name);
+}
+
+welcome();
+
+ function donate(){
+  let name = prompt(" What is your name");
+  let email = prompt("Enter your email address");
+
+let h1 = document.querySelector("h1");
+h1.innerHTML = "Thank You for your donation🙏"
+
+  }
+
+ let donateButton = document.querySelector("button");
+
+ donateButton.addEventListener("click", donate);
+
+
+
+ </script>
+</body>
+</html>
